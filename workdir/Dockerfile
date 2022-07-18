@@ -1,4 +1,4 @@
 FROM    centos:7
-RUN     PWD
+RUN     pwd
 RUN     cd /opt
 RUN     pwd
