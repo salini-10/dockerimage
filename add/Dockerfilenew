@@ -1,3 +1,3 @@
 FROM user-image
-COPY sample.txt /home/devops
-COPY src /home/devops
+COPY  --chown=devops:devops sample.txt /home/devops
+COPY  --chown=devops:devops src /home/devops
