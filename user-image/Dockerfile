@@ -1,3 +1,3 @@
 FROM    centos:7
-RUN     devops
+RUN     useradd devops
 USER    devops
